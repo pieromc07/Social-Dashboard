@@ -1,0 +1,75 @@
+.header{
+    padding-bottom: 20px;
+    transition: all .3s ease;
+}
+
+.header__title{
+    padding: 35px 0px 25px 0px;
+}
+
+.header__title .title{
+    font-size: 1.62rem;
+    transition: all .3s ease;
+}
+
+.header__title .followers{
+    color: var(--text-color-2);
+}
+.separator{
+    border-top: 1px solid var(--text-color-2) ;
+}
+
+.header__mode{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    transition: all .3s ease;
+}
+.header__mode .mode-title{
+    color: var(--text-color-2);
+}
+.header__mode .toogle{
+    position: relative;
+    border: none;
+    border-radius: 1000px;
+    background: var(--bgtoggle);
+    display: flex;
+    outline: none;
+    cursor: pointer;
+}
+.header__mode .toogle::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    background-color: var(--text-color-1);
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: all .5s ease;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.header__mode .toogle.active{
+
+    background-color: orange;
+    color: #000;
+}
+.header__mode .toogle.active::after{
+    right: 0;
+    left: unset;
+}
+
+.header__mode .toogle span{
+
+    width: 30px;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    background: none;
+    color: var(--text-color-1);
+}
