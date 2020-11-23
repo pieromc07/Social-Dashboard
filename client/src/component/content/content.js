@@ -34,7 +34,7 @@ class Content extends React.Component {
                             </div>
                             <div className="followers__main">
                                 <strong className="main-quantity">1987</strong>
-                                <p>FOLLOWERS</p>
+                                <span>FOLLOWERS</span>
                             </div>
                             <div className="followers__footer">
 
@@ -51,7 +51,7 @@ class Content extends React.Component {
                             </div>
                             <div className="followers__main">
                                 <strong className="main-quantity">1987</strong>
-                                <p>FOLLOWERS</p>
+                                <span>FOLLOWERS</span>
                             </div>
                             <div className="followers__footer">
                                 <i class="fas fa-caret-up"></i>
@@ -67,7 +67,7 @@ class Content extends React.Component {
                             </div>
                             <div className="followers__main">
                                 <strong className="main-quantity">1987</strong>
-                                <p>FOLLOWERS</p>
+                                <span>SUBSCRIBERS</span>
                             </div>
                             <div className="followers__footer">
                                 <i class="fas fa-caret-down"></i>
